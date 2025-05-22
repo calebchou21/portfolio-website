@@ -9,28 +9,39 @@
 .project-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  width: 350px;
+  background-color: var(--card);
   border: 2px solid var(--border);
   border-radius: 8px;
   overflow: hidden;
-  width: 350px;
-  background-color: var(--card);
   box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 
+
 .project-image {
   width: 100%;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
 }
+
 
 .project-info {
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.project-link {
+  margin-top: auto;
+  align-self: start;
+  color: var(--border);
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .project-title {
@@ -42,13 +53,6 @@
   font-size: 0.95rem;
   color: #ddd;
   padding: 3px 0
-}
-
-.project-link {
-  align-self: start;
-  color: var(--border);
-  text-decoration: underline;
-  font-weight: bold;
 }
 
 .project-tools {

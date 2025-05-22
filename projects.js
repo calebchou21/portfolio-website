@@ -2,9 +2,17 @@ const projects = [
     {
       title: "Bookdle",
       description: "Bookdle was a daily book guessing game where you had 5 attempts to guess a book from it's quotes.",
-      tools: ["TypeScript", "React", "DynamoDB", "AWS"],
+      tools: ["TypeScript", "React", "DynamoDB", "AWS", "Selenium"],
       image: "imgs/projects/bookdle.png",
       sourceCode: "fill this in later"
+    },
+    {
+      title: "Tomoa Skip Analysis",
+      description: "This was a speed climbing analysis project completed during my unergrauate research position with the department of \
+        statistics at Colorado State University.",
+      tools: ["R", "Data Analysis", "Selenium", "Mixed Effects Modeling"],
+      image: "imgs/projects/tomoa-skip.jpg",
+      sourceCode: "https://github.com/andeek/speed_climbing_tomoa_skip"
     },
   ];
   
