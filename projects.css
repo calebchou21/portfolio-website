@@ -1,0 +1,71 @@
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 350px;
+  background-color: var(--card);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.project-info {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  color: var(--accent-green);
+}
+
+.project-description {
+  font-size: 0.95rem;
+  color: #ddd;
+  padding: 3px 0
+}
+
+.project-link {
+  align-self: start;
+  color: var(--border);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.project-tools {
+  margin: 0.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tool-chip {
+  background-color: #2d2d2d;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid var(--accent-blue);
+  border-radius: 999px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
